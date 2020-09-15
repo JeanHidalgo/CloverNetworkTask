@@ -31,5 +31,6 @@ public class Searching_Appium_Google_Test extends Google_Search {
     public void clickOnSearch() {
         BrowserUtility.wait(3);
         search.click();
+        BrowserUtility.wait(3);
     }
 }
